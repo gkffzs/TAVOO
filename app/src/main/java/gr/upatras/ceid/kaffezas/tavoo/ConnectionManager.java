@@ -22,7 +22,7 @@ import java.net.URLEncoder;
 public class ConnectionManager { // ----------------------------------------------------------------
 
     // Declaration of the localhost server, where TAVOO API is placed. -----------------------------
-    private static final String LOCALHOST_URL = "http://150.140.15.50/kaffezas/tavoo/";
+    private static final String LOCALHOST_URL = "/TAVOO-API/";
 
     // Declaration of important tags that are used below. ------------------------------------------
     private static final String TAG_SUCCESS = "success";
