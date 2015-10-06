@@ -1,0 +1,9 @@
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/OrangeActionBar</item>
+    </style>
+    <style name="OrangeActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_custom_border</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

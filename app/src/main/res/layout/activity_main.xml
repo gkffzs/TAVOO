@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/paleorange"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="80">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/main_dog_human_vector"
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="34dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/ic_dog_human_vector" />
+
+            <TextView
+                android:id="@+id/main_welcome_greeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_dog_human_vector"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/main_welcome_greeting_text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/main_welcome_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_welcome_greeting"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="34dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/main_welcome_info_text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/main_bottom_tabs_border"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/button_pro"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_weight="33"
+                android:background="@drawable/main_button_background"
+                android:onClick="profileClickHandler"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_profile_button"
+                android:text="@string/button_pro" />
+
+            <ImageButton
+                android:id="@+id/button_loc"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginEnd="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="34"
+                android:background="@drawable/main_button_background"
+                android:onClick="locationClickHandler"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_location_button"
+                android:text="@string/button_loc" />
+
+            <ImageButton
+                android:id="@+id/button_vet"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:layout_weight="33"
+                android:background="@drawable/main_button_background"
+                android:onClick="vetClickHandler"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_vet_button"
+                android:text="@string/button_vet" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

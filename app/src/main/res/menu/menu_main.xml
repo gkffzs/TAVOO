@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="@string/action_login" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="101"
+        android:title="@string/action_logout"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_google_play_licence"
+        android:orderInCategory="102"
+        android:title="@string/action_google_play_licence" />
+    <item
+        android:id="@+id/action_app_licence"
+        android:orderInCategory="103"
+        android:title="@string/action_app_licence" />
+    <item
+        android:id="@+id/action_privacy_policy"
+        android:orderInCategory="104"
+        android:title="@string/action_privacy_policy" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="105"
+        android:title="@string/action_about" />
+</menu>

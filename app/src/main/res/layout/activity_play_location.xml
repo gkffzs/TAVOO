@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/play_loc_top_info_border">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="Για να προσθέσετε μια νέα τοποθεσία, πιέστε στον χάρτη."
+            android:textAlignment="center"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/play_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="80"
+        tools:context="gr.upatras.ceid.kaffezas.tavoo.PlayLocationActivity" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/play_info_border">
+
+        <TextView
+            android:id="@+id/play_loc_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/play_loc_check_in_button"
+            android:layout_toStartOf="@+id/play_loc_check_in_button"
+            android:singleLine="true"
+            android:text="@string/play_location_info_name_placeholder"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/play_loc_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/play_loc_name"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_toLeftOf="@+id/play_loc_check_in_button"
+            android:layout_toStartOf="@+id/play_loc_check_in_button"
+            android:singleLine="true"
+            android:text="@string/play_loc_info_address_placeholder"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/play_loc_check_in_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/play_loc_name"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/check_in_button_background"
+            android:text="@string/play_loc_check_in_button_text"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/play_loc_rating_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/play_loc_check_in_button"
+            android:layout_below="@+id/play_loc_check_in_button"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/rating_button_background"
+            android:drawableStart="@drawable/ic_info_rating_icon_button"
+            android:paddingLeft="14dp"
+            android:paddingRight="10dp"
+            android:text="@string/play_loc_info_rating_placeholder"
+            android:textColor="@color/gray"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:id="@+id/play_loc_info_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/play_loc_rating_button"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:columnCount="6"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <ImageView
+                android:id="@+id/play_loc_info_icon_distance"
+                android:layout_width="22dp"
+                android:layout_height="18dp"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_info_distance" />
+
+            <TextView
+                android:id="@+id/play_loc_info_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:text="@string/play_loc_info_distance_placeholder"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageView
+                android:id="@+id/play_loc_info_icon_duration"
+                android:layout_width="22dp"
+                android:layout_height="18dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_info_duration" />
+
+            <TextView
+                android:id="@+id/play_loc_info_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_gravity="center"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:text="@string/play_loc_info_duration_placeholder"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageView
+                android:id="@+id/play_loc_info_icon_checked"
+                android:layout_width="22dp"
+                android:layout_height="18dp"
+                android:layout_column="4"
+                android:layout_gravity="center"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_info_number_icon" />
+
+            <TextView
+                android:id="@+id/play_loc_info_checked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:layout_gravity="center"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:text="@string/play_loc_info_number_placeholder"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </GridLayout>
+    </RelativeLayout>
+</LinearLayout>

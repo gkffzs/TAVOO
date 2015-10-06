@@ -1,0 +1,186 @@
+<resources>
+    <!-- Application name |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="app_name">TAVOO</string>
+
+    <!-- MainActivity |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="main_welcome_greeting_text">Καλώς ορίσατε!</string>
+    <string name="main_welcome_info_text">
+        Μπορείτε να ψάξετε για ένα μέρος να πάτε βόλτα, να βρειτε τον κτηνίατρο που
+        χρειάζεστε ή να φτιάξετε ένα νέο προφίλ και να γνωρίσετε νέους σκυλοφίλους.
+    </string>
+    <!-- MainActivity: bottom buttons' titles -->
+    <string name="button_loc">ΤΟΠ</string>
+    <string name="button_pro">ΠΡΟ</string>
+    <string name="button_vet">ΚΤΗ</string>
+
+    <!-- MainActivity: main menu -->
+    <string name="action_login">Σύνδεση</string>
+    <string name="action_logout">Αποσύνδεση</string>
+    <string name="action_google_play_licence">Άδεια χρήσης χαρτών</string>
+    <string name="action_app_licence">Άδεια χρήσης εφαρμογής</string>
+    <string name="action_privacy_policy">Πολιτική απορρήτου</string>
+    <string name="action_about">Σχετικά</string>
+
+    <!-- General titles for top of screen |||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="spl_title">Οθόνη υποδοχής</string>
+    <string name="vet_title">Κτηνιατρεία</string>
+    <string name="loc_title">Τοποθεσίες για βόλτα</string>
+    <string name="pro_title">Προφίλ</string>
+    <string name="reg_title">Εγγραφή</string>
+    <string name="log_title">Σύνδεση</string>
+
+    <!-- SplashActivity ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="spl_app_version">(Δοκιμαστική έκδοση)</string>
+
+    <!-- LoginActivity ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="log_hint_email">Email</string>
+    <string name="log_hint_password">Κωδικός</string>
+    <string name="log_hint_username">Όνομα χρήστη</string>
+    <string name="log_button_register">Εγγραφή</string>
+    <string name="log_button_login">Σύνδεση</string>
+
+    <!-- RegisterActivity |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="reg_hint_email">Email</string>
+    <string name="reg_hint_password">Κωδικός</string>
+    <string name="reg_hint_re_password">Επιβεβαίωση κωδικού</string>
+    <string name="reg_button_register">Ολοκλήρωση Εγγραφής</string>
+    <string name="reg_hint_username">Όνομα χρήστη</string>
+
+    <!-- ProfileActivity ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="pro_message_friend_empty">
+        Η λειτουργία του προφίλ και της προσθήκης φίλων δεν είναι ανεπτυγμένη, συνεπώς δεν
+        παρέχεται στην παρούσα έκδοση της εφαρμογής.
+    </string>
+
+    <!-- PlayLocationActivity |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="play_location_info_name_placeholder">Όνομα τοποθεσίας</string>
+    <string name="play_loc_info_address_placeholder">Διεύθυνση τοποθεσίας</string>
+    <string name="play_loc_check_in_button_text">Check-in</string>
+    <string name="play_loc_check_out_button_text">Check-out</string>
+    <string name="play_loc_info_distance_placeholder">Απόσταση</string>
+    <string name="play_loc_info_duration_placeholder">Διάρκεια</string>
+    <string name="play_loc_info_number_placeholder">0</string>
+    <string name="play_loc_info_rating_placeholder">-</string>
+
+    <!-- VetActivity ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <!-- VetActivity: VetFirstActivity -->
+    <string name="vet_fir_address_placeholder">Διεύθυνση κτηνιατρείου</string>
+    <string name="vet_fir_name_placeholder">Όνομα κτηνιατρείου</string>
+    <string name="vet_fir_call_button_description">Τηλεφωνο κτηνιατρείου</string>
+    <string name="vet_fir_info_distance_placeholder">Απόσταση</string>
+    <string name="vet_fir_info_duration_placeholder">Διάρκεια</string>
+    <!-- VetActivity: VetSecondActivity -->
+    <string name="vet_sec_name_placeholder">Όνομα κτηνιατρείου</string>
+    <string name="vet_sec_address_placeholder">Διεύθυνση κτηνιατρείου</string>
+    <string name="vet_sec_item_call_button_placeholder">Πλήκτρο κλήσης</string>
+
+    <!-- GooglePlayLicenceActivity ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="google_play_licence_title">Άδεια χρήσης Google Play Services</string>
+    <string name="google_play_licence">Κείμενο άδειας χρήσης Google Play Services.</string>
+
+    <!-- AppLicenceActivity |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="app_licence_title">Άδεια χρήσης εφαρμογής</string>
+    <string name="app_licence">Κείμενο άδειας χρήσης εφαρμογής (GPLv3).</string>
+
+    <!-- PrivacyPolicyActivity ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="privacy_policy_title">Πολιτική απορρήτου</string>
+    <string name="privacy_policy">
+        <i>Η προστασία των προσωπικών σας δεδομένων λαμβάνεται όσο το δυνατόν περισσότερο υπ\' όψιν.
+        Γι\' αυτό η παρούσα πολιτική απορρήτου έχει σκοπό να σας εξηγήσει ποιες πληροφορίες σας
+        καταγράφονται κατά τη χρήση της εφαρμογής, πού πηγαίνουν και πώς υφίστανται επεξεργασία.</i>
+        \n\n
+
+        <b><u>Δεδομένα που συλλέγονται</u></b>\n
+        Δεδομένου ότι η παρούσα έκδοση της εφαρμογής είναι δοκιμαστική, διατίθεται προς χρήση
+        προκειμένου να συλλεχθούν δεδομένα τα οποία θα βοηθήσουν στη βελτίωση και περαιτέρω ανάπτυξή
+        της. Τα δεδομένα που συλλέγονται (και οι περιπτώσεις στις οποίες γίνεται αυτό) είναι:\n\n
+
+        <b>&gt;</b> το όνομα χρήστη (username) που δίνετε όταν γίνεται εγγραφή και ο κωδικός
+        (password), κρυπτογραφημένος με τον αλγόριθμο MD5\n\n
+
+        <b>&gt;</b> το αναγνωριστικό χρήστη (user ID) και η διάρκεια που αφιερώνει σε κάθε οθόνη της
+        εφαρμογής\n\n
+
+        <b>&gt;</b> το αναγνωριστικό χρήστη (user ID), το αναγνωριστικό της τοποθεσίας βόλτας
+        (play location ID) που επιλέγεται, και η χρονική στιγμή της επιλογής\n\n
+
+        <b>&gt;</b> το αναγνωριστικό χρήστη (user ID), το αναγνωριστικό της τοποθεσίας βόλτας
+        (play location ID) όπου γίνεται check-in, και η χρονική στιγμή\n\n
+
+        <b>&gt;</b> το αναγνωριστικό χρήστη (user ID), το αναγνωριστικό της τοποθεσίας βόλτας
+        (play location ID) όπου γίνεται check-out, και η χρονική στιγμή\n\n
+
+        <b>&gt;</b> το αναγνωριστικό χρήστη (user ID), το αναγνωριστικό του κτηνιάτρου (vet ID) που
+        επιλέγεται, και η χρονική στιγμή της επιλογής\n\n
+
+        <b>&gt;</b> το αναγνωριστικό χρήστη (user ID), το αναγνωριστικό του κτηνιάτρου (vet ID) που
+        καλείται, και η χρονική στιγμή της κλήσης\n\n
+
+        Όλα τα παραπάνω είναι τα μόνα δεδομένα που συλλέγονται. Δεν συλλέγεται καμία πληροφορία για
+        την ταυτότητά σας, την τοποθεσία σας, ούτε για οποιαδήποτε άλλα δεδομένα (π.χ. τηλεφωνικός
+        κατάλογος) της συσκευής σας. Τα δεδομένα αποθηκεύονται σε μια βάση δεδομένων σε ασφαλή
+        server για μετέπειτα ανάλυση. Θα χρησιμοποιηθούν μόνο στα πλαίσια της διπλωματικής εργασίας,
+        δε θα δημοσιοποιηθούν και δε θα διαμοιραστούν με τρίτα πρόσωπα.\n\n
+
+        <b><u>Διαφάνεια διεργασιών</u></b>\n
+        Ο πηγαίος κώδικας της εφαρμογής αυτής θα είναι σύντομα διαθέσιμος στο GitHub και ανοιχτός
+        για όποιον θελήσει να τον ελέγξει, να δει πώς λειτουργεί και να επικυρώσει τα παραπάνω.
+        Άλλωστε, η εφαρμογή βασίζεται στις αρχές του ανθρωποκεντρικού σχεδιασμού και του ελεύθερου
+        λογισμικού, κάτι που διασφαλίζει τη δυνατότητα ενεργού ελέγχου και συμμετοχής των χρηστών
+        εξαρχής και σε όλο τον κύκλο ζωής της.
+    </string>
+
+    <!-- AboutActivity ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <string name="about_title">Σχετικά με την εφαρμογή</string>
+    <string name="about_app_title">TAVOO</string>
+    <string name="about_app_version">Έκδοση 0.6</string>
+    <string name="about_app_photo_description_text">Η αφορμή ανάπτυξης της εφαρμογής:
+        ο Ταβού!</string>
+    <string name="about_app_description_text">
+        Η παρούσα εφαρμογή αναπτύσσεται στα πλαίσια
+        διπλωματικής εργασίας στο Τμήμα Μηχανικών Η/Υ &amp; Πληροφορικής του Πανεπιστημίου
+        Πατρών, με τίτλο <b>«Ανθρωποκεντρική σχεδίαση και ανάπτυξη εφαρμογής σε
+        Android για διευκόλυνση της συμβίωσης ανθρώπων &amp; κατοικιδίων»</b>.\n\n
+
+        Κύριος σκοπός της είναι η βελτίωση της συμβίωσης ανάμεσα στους ανθρώπους και τα
+        κατοικίδια ζώα, με τη βοήθεια της σύγχρονης τεχνολογίας και της δυνατότητας που
+        έχει αυτή να συμβάλλει θετικά προς αυτή την κατεύθυνση. Αλλά και με τη βοήθεια της
+        ενεργούς συμμετοχής των ίδιων των χρηστών σε όλα τα στάδια της ανάπτυξης.\n\n
+
+        Η έκδοση που έχετε εγκαταστήσει αποτελεί μια δοκιμαστική έκδοση <b>(pre-alpha release)</b>,
+        δεν είναι ολοκληρωμένη και ενδέχεται να παρουσιάσει σφάλματα κατα τη λειτουργία της.\n\n
+
+        Η εφαρμογή υπόκειται στην άδεια χρήσης <b>GPLv3</b>. Είναι και θα παραμείνει δωρεάν και
+        ελεύθερη προς χρήση, ενώ ο πηγαίος κώδικας θα είναι διαθέσιμος στο GitHub μετά το τέλος της
+        διπλωματικής, για όποιον επιθυμεί να τον εξετάσει ή και να συμβάλλει στην ανάπτυξή του.
+    </string>
+    <string name="about_app_developer_name">Γιώργος Καφφέζας</string>
+    <string name="about_app_date">Σεπτέμβριος 2015</string>
+
+    <!-- Logging ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <!-- Several activities' tags used for logs -->
+    <string name="activ_main_tag">MAIN</string>
+    <string name="activ_log_tag">LOG</string>
+    <string name="activ_reg_tag">REG</string>
+    <string name="activ_gps_lic_tag">GPS_LIC</string>
+    <string name="activ_app_lic_tag">APP_LIC</string>
+    <string name="activ_pri_pol_tag">PRI_POL</string>
+    <string name="activ_about_tag">ABOUT</string>
+    <string name="activ_pro_tag">PRO</string>
+    <string name="activ_play_loc_tag">PLAY_LOC</string>
+    <string name="activ_vet_fir_tag">VET_FIR</string>
+    <string name="activ_vet_sec_tag">VET_SEC</string>
+    <!-- Several tags used for the life cycle of an activity -->
+    <string name="act_create_activ_tag">CREATE</string>
+    <string name="act_start_activ_tag">START</string>
+    <string name="act_pause_activ_tag">PAUSE</string>
+    <string name="act_resume_activ_tag">RESUME</string>
+    <string name="act_stop_activ_tag">STOP</string>
+    <string name="act_destroy_activ_tag">DESTROY</string>
+    <!-- Several tags used for loggin specific actions -->
+    <string name="act_play_loc_tap_tag">PLAY_LOC_TAP</string>
+    <string name="act_play_loc_checkin_tag">CHECK_IN</string>
+    <string name="act_play_loc_checkout_tag">CHECK_OUT</string>
+    <string name="act_vet_tap_tag">VET_TAP</string>
+    <string name="act_vet_call_tag">VET_CALL</string>
+</resources>
