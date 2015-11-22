@@ -1,5 +1,5 @@
 ## TAVOO *(to be updated)*
-This repository contains the files for [**TAVOO**](https://play.google.com/store/apps/details?id=gr.upatras.ceid.kaffezas.tavoo), a [free software](https://www.gnu.org/philosophy/free-sw.html) Android application that I partially developed as part of my diploma thesis (as an undergraduate student of the [Computer Engineering & Informatics Department](https://www.ceid.upatras.gr/) at the [University of Patras](http://www.upatras.gr/)).
+This repository contains the files for [**TAVOO**](https://play.google.com/store/apps/details?id=gr.upatras.ceid.kaffezas.tavoo), a [free software](https://www.gnu.org/philosophy/free-sw.html) Android application that I partially developed as part of my [diploma thesis](http://nemertes.lis.upatras.gr/jspui/handle/10889/8959) (as an undergraduate student of the [Computer Engineering & Informatics Department](https://www.ceid.upatras.gr/) at the [University of Patras](http://www.upatras.gr/)).
 
 The main goal of my thesis was the improvement of the cohabitation between humans and pets, with the aid of modern technology and its ability to have a positive impact towards that goal, but also with the active participation of users themselves. So, this mobile application was designed and partially developed, according to the principles of [human-centered design](https://en.wikipedia.org/wiki/User-centered_design) and with the user's opinion and experience in mind, on every stage of the process.
 
@@ -14,77 +14,77 @@ As for the structure of the application, please bear in mind that it was the fir
     <td><b>AboutActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the Activity that's responsible for the display of information regarding the application (i.e. its version, a description, etc.).  </i></td>
   </tr>
   
   <tr>
     <td><b>AppLicenceActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the Activity that's responsible for displaying the licence under which the application's released.</i></td>
   </tr>
   
   <tr>
     <td><b>AppServices.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of several methods that are used throughout the application. It specifically contains a method for displaying custom Toast messages, for reading files from the device, for logging users, and its respective AsyncTask, that sends the said information to the server.</i></td>
   </tr>
   
   <tr>
     <td><b>AutoCheckOutReceiver.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of a class that manages the auto-check-out process from a location after 3 hours.</i></td>
   </tr>
   
   <tr>
     <td><b>ConnectionManager.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>This file is responsible for the communication between the application and the server, and so it includes most of the related methods. More precisely, it includes a method for checking the connection to the internet, a method for sending and receiving data from a location, and a bunch of methods for creating proper URLs that are needed in some functions (such as rating). They are based on HttpURLConnection.</i></td>
   </tr>
   
   <tr>
     <td><b>DirectionsJSONParser.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>This is the source code of a parser that reads the data in JSON format that Google's Directions API sends, using a method that decodes the navigational instructions.</i></td>
   </tr>
   
   <tr>
     <td><b>GooglePlayLicenceActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the Activity that's responsible for displaying the licence under which Google Maps are used in the application.</i></td>
   </tr>
   
   <tr>
     <td><b>LoginActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the Activity that's responsible for the login screen of the application, and that manages the related data by saving them in SharedPreferences.</i></td>
   </tr>
   
   <tr>
     <td><b>MainActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the main Activity of the application, namely the screen that appears right after the start of the application and the splash screen. It includes the main menu of the application, with three major functions (profile, play locations and vets), as well as a drop-down menu for login, licenses, etc.</i></td>
   </tr>
   
   <tr>
     <td><b>PlayLocation.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>This is the source file of a class that is used for the representation and easier handling of a play location and its related data.</i></td>
   </tr>
   
   <tr>
     <td><b>PlayLocationActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the Activity that displays the locations available for play and walk on the map. One of the most lengthy files of the application, it includes several methods. As a brief summary, it starts by defining how the locations will be displayed on the map, and then specifies the location of the user. If that's successfully done, it proceeds by finding the nearest location, displays all of them on the map and draws the route towards the nearest. It then updates the information that are displayed on the information box at the bottom of the screen, and specifies the methods that will be "listening" to the actions of the user (i.e. addition of a new location).</i></td>
   </tr>
   
   <tr>
