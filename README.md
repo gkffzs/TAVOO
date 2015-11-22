@@ -1,4 +1,4 @@
-## TAVOO *(to be updated)*
+## TAVOO
 This repository contains the files for [**TAVOO**](https://play.google.com/store/apps/details?id=gr.upatras.ceid.kaffezas.tavoo), a [free software](https://www.gnu.org/philosophy/free-sw.html) Android application that I partially developed as part of my [diploma thesis](http://nemertes.lis.upatras.gr/jspui/handle/10889/8959) (as an undergraduate student of the [Computer Engineering & Informatics Department](https://www.ceid.upatras.gr/) at the [University of Patras](http://www.upatras.gr/)).
 
 The main goal of my thesis was the improvement of the cohabitation between humans and pets, with the aid of modern technology and its ability to have a positive impact towards that goal, but also with the active participation of users themselves. So, this mobile application was designed and partially developed, according to the principles of [human-centered design](https://en.wikipedia.org/wiki/User-centered_design) and with the user's opinion and experience in mind, on every stage of the process.
@@ -91,84 +91,84 @@ As for the structure of the application, please bear in mind that it was the fir
     <td><b>PlayLocationXMLParser.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>This source file is a parser that reads the location data in XML format that are received from the server.</i></td>
   </tr>
   
   <tr>
     <td><b>PrivacyPolicyActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the Activity that displays the privacy policy of the application.</i></td>
   </tr>
   
   <tr>
     <td><b>ProfileActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the Activity that displays the profile of a dog. It's not developed yet, so only a warning message is displayed.</i></td>
   </tr>
   
   <tr>
     <td><b>RegisterActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the Activity that is responsible for the registration of a new user. It performs some checks, displays some loading messages and calls the respective methods in order to send data to the server, via AsyncTask.</i></td>
   </tr>
   
   <tr>
     <td><b>SessionManager.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>This source file is responsible for the communication between the application and the server, mainly for the functions of login and registration. It is based on HttpComponents by Apache.</i></td>
   </tr>
   
   <tr>
     <td><b>SplashActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the splash Activity, that displays the logo of the application for 3 seconds while it is loading.</i></td>
   </tr>
   
   <tr>
     <td><b>Vet.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>This source file contains a class that is used for representing a vet, so that the handling of the related data becomes easier.</i></td>
   </tr>
   
   <tr>
     <td><b>VetActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the Activity for the vets. It basically displays two other Activities in tabs.</i></td>
   </tr>
   
   <tr>
     <td><b>VetAdapter.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>This source file helps in the creation of the vet list, by defining where and how the data will be displayed in each item of the list.</i></td>
   </tr>
   
   <tr>
     <td><b>VetFirstActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the Activity that displays the vets on the map. This file is also one of the most lengthy, and it operates in a similar way to the PlayLocationActivity.</i></td>
   </tr>
   
   <tr>
     <td><b>VetJSONParser.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>This source file contains a parser that reads the vet data in JSON format from the server.</i></td>
   </tr>
   
   <tr>
     <td><b>VetSecondActivity.java</b></td>
   </tr>
   <tr>
-    <td><i></i></td>
+    <td><i>Source code of the Activity that displays a list with the available vets in the area.</i></td>
   </tr>
 </table>
 
