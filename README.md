@@ -3,6 +3,8 @@ This repository contains the files for [**TAVOO**](https://play.google.com/store
 
 The main goal of my thesis was the improvement of the cohabitation between humans and pets, with the aid of modern technology and its ability to have a positive impact towards that goal, but also with the active participation of users themselves. So, this mobile application was designed and partially developed, according to the principles of [human-centered design](https://en.wikipedia.org/wiki/User-centered_design) and with the user's opinion and experience in mind, on every stage of the process.
 
+![TAVOO screenshots](https://raw.githubusercontent.com/gkffzs/TAVOO/master/screenshots.png)
+
 #### Version 0.6
 This is the [pre-alpha version](https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha) of the application (numbered 0.6), so there are a lot of things to be done, till it's properly completed. Due to the nature of the whole design and development of the application, I believe that only through collaboration and more active participation of the users is there a future for this application. That is why I decided from the start that it would be published as free software. Moreover, I won't be able to maintain or develop it further for a long period of time, so if anyone is interested in continuing it, they are more than welcome.
 
